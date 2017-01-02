@@ -1,0 +1,21 @@
+{
+  "name": "camera_offloader",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node --harmony start.js",
+    "lint": "eslint start.js src/",
+    "test": "npm run lint && jest"
+  },
+  "author": "Jack Preston <unwttng@gmail.com> (http://unwttng.com)",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "jest": "^17.0.3"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "exiftool": "^0.0.3",
+    "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
+    "say": "^0.11.0"
+  }
+}
